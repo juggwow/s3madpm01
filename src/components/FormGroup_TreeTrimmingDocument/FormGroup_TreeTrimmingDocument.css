@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped&display=swap');
+
+*{
+    font-family: 'Noto Sans Thai Looped', sans-serif;
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+label{
+    padding: 0.5rem;
+    display: block;
+    font-weight: bold;
+}
+
+select{
+    display: block;
+    margin: 0.5rem;
+    width: 200px;
+    box-shadow: 1px 1px 0.5px #888888;
+}
+
+.filter{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 2px solid #888888;
+}
+
+
+
+
